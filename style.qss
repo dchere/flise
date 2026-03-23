@@ -1,0 +1,109 @@
+/* Main Window */
+QMainWindow {
+    background-color: #F5F5F5;
+}
+
+/* Sidebar Styling */
+QFrame#Sidebar {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E0E0E0;
+    min-width: 280px;
+}
+
+/* Typography */
+QLabel {
+    color: #333333;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 13px;
+}
+
+QLabel#Header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1A1A1A;
+}
+
+QLabel#Subtle {
+    color: #666666;
+    font-style: italic;
+}
+
+/* Inputs & Text Fields */
+QLineEdit, QTextEdit, QComboBox {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    padding: 8px;
+    selection-background-color: #A0A0A0;
+}
+
+QLineEdit:focus, QTextEdit:focus, QComboBox:focus {
+    border: 1px solid #555555;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 14px;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}
+
+QPushButton#Secondary {
+    background-color: transparent;
+    color: #333333;
+    border: 1px solid #333333;
+}
+
+QPushButton#Secondary:hover {
+    background-color: #EEEEEE;
+}
+
+/* Sliders */
+QSlider::handle:horizontal {
+    background: #333333;
+    border: 1px solid #333333;
+    width: 14px;
+    height: 14px;
+    margin: -5px 0;
+    border-radius: 7px;
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #E0E0E0;
+    height: 4px;
+    background: #E0E0E0;
+    margin: 2px 0;
+}
+
+/* Canvas */
+QFrame#CanvasFrame {
+    background-color: #EBEBEB;
+    border: 1px dashed #CCCCCC;
+    border-radius: 8px;
+}
+
+QGraphicsView, QWidget#Canvas {
+    background-color: #EBEBEB;
+    border-radius: 8px;
+}
+
+/* Refinement tray */
+QFrame#RefinementTray {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+/* Overlay */
+QFrame#Overlay {
+    background-color: rgba(255, 255, 255, 200);
+    border-radius: 8px;
+}
